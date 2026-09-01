@@ -1,0 +1,18 @@
+package org.example;
+import java.util.Scanner;
+
+// Questão 1 - Verificar Maioridade
+public class Main {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int idade;
+        System.out.println("Digite sua idade:");
+        idade = entrada.nextInt();
+
+        if (idade >=18 ){
+            System.out.println("Maior de idade");
+        } else {
+            System.out.println("Menor de idade");
+        }
+    }
+}
