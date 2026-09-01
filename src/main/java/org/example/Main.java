@@ -1,18 +1,18 @@
 package org.example;
 import java.util.Scanner;
 
-// Questão 1-Verificar Maioridade
+// Questão 2 -Aprovação do aluno
 public class Main {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int idade;
-        System.out.println("Digite sua idade:");
-        idade = entrada.nextInt();
+        double nota;
+        System.out.println("Digite sua nota:");
+        nota = entrada.nextDouble();
 
-        if (idade >=18 ){
-            System.out.println("Maior de idade");
+        if (nota >=7 ){
+            System.out.println("Aprovado!");
         } else {
-            System.out.println("Menor de idade");
+            System.out.println("Reprovado!");
         }
     }
 }
